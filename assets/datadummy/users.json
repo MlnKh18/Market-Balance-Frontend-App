@@ -1,0 +1,144 @@
+{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "users": [
+      {
+        "id": "1",
+        "username": "Maulana Khairuman",
+        "email": "maulana@gmail.com",
+        "phone": "+1234567890",
+        "password": "maulana",
+        "dataPersonal": {
+          "nomer_ktp": "3171234567890001",
+          "nama_panajang_ktp": "Maulana Khairuman",
+          "tanggal_lahir": "18-05-2004",
+          "tempat_lahir": "Mataram",
+          "addressId": "address_001",
+          "image_profile": "profile_image_url_here"
+        },
+        "storeId": "1",
+        "historyShoppingIds": ["txn_001", "txn_002"],
+        "orderIds": ["order_001"],
+        "favoritedItemIds": ["item_004", "item_005"]
+      }
+    ],
+    "addresses": [
+      {
+        "addressId": "address_001",
+        "provinsi": "NTB",
+        "kabupaten": "Lombok Barat",
+        "kecamatan": "Selaparang",
+        "kelurahan": "Gerung",
+        "kode_pos": 123345,
+        "deskripsi_alamat": "done"
+      }
+    ],
+    "stores": [
+      {
+        "storeId": "1",
+        "storeName": "Maulana Store",
+        "storeAddress": "Bukit Menok reyan",
+        "ownerId": "1",
+        "product_store": [
+          {
+            "itemId": "item_001",
+            "itemName": "Product 1",
+            "category": "chilli",
+            "price": 30.0,
+            "stock": 100
+          },
+          {
+            "itemId": "item_002",
+            "itemName": "Product 2",
+            "category": "beras",
+            "price": 20.0,
+            "stock": 50
+          },
+          {
+            "itemId": "item_003",
+            "itemName": "Product 3",
+            "category": "egg",
+            "price": 15.0,
+            "stock": 80
+          }
+        ]
+      }
+    ],
+
+    "history_shopping": [
+      {
+        "transactionId": "txn_001",
+        "userId": "1",
+        "date": "2024-06-30",
+        "items": [
+          {
+            "itemId": "item_001",
+            "itemName": "Product 1",
+            "quantity": 2,
+            "price": 30.0
+          }
+        ],
+        "totalAmount": 60.0
+      },
+      {
+        "transactionId": "txn_002",
+        "userId": "1",
+        "date": "2024-07-01",
+        "items": [
+          {
+            "itemId": "item_002",
+            "itemName": "Product 2",
+            "quantity": 1,
+            "price": 20.0
+          }
+        ],
+        "totalAmount": 20.0
+      }
+    ],
+    "orders": [
+      {
+        "orderId": "order_001",
+        "userId": "1",
+        "date": "2024-07-02",
+        "items": [
+          {
+            "itemId": "item_003",
+            "itemName": "Product 3",
+            "quantity": 1,
+            "price": 15.0
+          }
+        ],
+        "status": "pending",
+        "totalAmount": 15.0
+      }
+    ],
+    "products": [
+      {
+        "itemId": "item_001",
+        "itemName": "Product 1",
+        "price": 30.0
+      },
+      {
+        "itemId": "item_002",
+        "itemName": "Product 2",
+        "price": 20.0
+      },
+      {
+        "itemId": "item_003",
+        "itemName": "Product 3",
+        "price": 15.0
+      },
+      {
+        "itemId": "item_004",
+        "itemName": "Product 4",
+        "price": 25.0
+      },
+      {
+        "itemId": "item_005",
+        "itemName": "Product 5",
+        "price": 45.0
+      }
+    ]
+  }
+}
